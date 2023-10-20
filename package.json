@@ -1,0 +1,19 @@
+{
+  "name": "ama-recipe",
+  "version": "1.0.0",
+  "description": "Recipe viewer",
+  "scripts": {
+    "start": "concurrently \"npm run start-frontend\" \"npm run start-backend\"",
+    "start-frontend": "cd frontend && ng serve",
+    "start-backend": "cd backend && node main.js"
+  },
+
+  "keywords": [
+    "AMA"
+  ],
+  "author": "Aniki",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^8.2.1"
+  }
+}
